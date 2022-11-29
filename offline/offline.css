@@ -1,0 +1,37 @@
+#home{
+    background-color: rgb(208, 208, 208);
+}
+#home table{
+    margin-top: 20px;
+}
+#home th,#home td{
+    font-size: 20px;
+    text-align: center;
+}
+#home th{
+    background-color: rgb(0, 149, 255);
+}
+#offline_exit{
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(221, 83, 83);
+}
+#offline_exit:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#offline_update{
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(97, 221, 83);
+}
+#offline_update:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
