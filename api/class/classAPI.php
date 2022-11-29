@@ -675,10 +675,12 @@ class Api{
                 $handler->message("Success","Admin");
                 $_SESSION["username"] = $user['account_information_id'];
                 $_SESSION["role"] = $user['Role'];
+                $_SESSION["id"] = $user['account_information_id'];
                 }else{
                     $handler->message("Success","User");
                     $_SESSION["username"] = $user['account_information_id'];
                     $_SESSION["role"] = $user['Role'];
+                    $_SESSION["id"] = $user['account_information_id'];
                 }
             } else{
     

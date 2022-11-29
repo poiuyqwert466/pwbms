@@ -25,7 +25,7 @@
 </head>
 <body>
     <div id="get_account_id">
-        <h5><?php echo($_SESSION['username']);?></h5>
+        <h5><?php echo($_SESSION['id']);?></h5>
       </div>
 
       <div id="side_bar_menu_show_status" class="container-fluid">

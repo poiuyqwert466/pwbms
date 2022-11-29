@@ -24,7 +24,7 @@
   </head>
   <body>
     <div id="get_account_id">
-      <!-- <h5><?php echo($_SESSION['username']);?></h5> -->
+      <h5><?php echo($_SESSION['id']);?></h5>
     </div>
     <div id="confirm_chat_payment">
       <div id="confirm_chat_payment_container" class="container-fluid">
