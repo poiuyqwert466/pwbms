@@ -1903,7 +1903,7 @@
         <div class="col-8">
   
         </div>
-        <div id="header_account_notification" class="col-1 d-none">
+        <div id="header_account_notification" class="col-1">
           <h5><i class="fa-solid fa-bell"></i><span class=""></span></h5>
         </div>
         <div id="header_account_img" class="col-1">
