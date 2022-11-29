@@ -4,7 +4,6 @@
       header("location:login.php");
     }else{
       if($_SESSION["role"]=="Admin"){
-  
       }else{
           header("location:user.php");
       }

@@ -1,13 +1,14 @@
 <?php
-  session_start();  
-  if(!isset($_SESSION["username"])){
-  }else{
-    if($_SESSION["role"]=="Admin"){
-        header("https://peaswater.com/pwbms/login.php"); 
-    }else{
-        header("https://peaswater.com/pwbms/login.php");
-    }
-  }   
+   session_start();  
+   if(!isset($_SESSION["username"])){
+     header("location:login.php");
+   }else{
+     if($_SESSION["role"]=="Admin"){
+       header("location:admin.php");
+     }else{
+         header("location:user.php");
+     }
+   }  
 ?>
 <!DOCTYPE html>
 <html lang="en">
